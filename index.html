@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Paarth Somani</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#travel">Travel</a></li>
+        <li><a href="#movies">Movies </a></li>
+        <li><a href="#environment">Environment</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<div class="container">
+    <div class="page-header" id="travel">  
+        <h2 clas="text-capitalize"> Places You Must Visit! </h2>
+     </div>
+     <center> 
+         <div class="travel_mainDiv"> 
+             <img class="img-responsive" src="trave1.jpeg">
+             <h4 class="text-capitalize"> <kbd> U.S.A </kbd>  </h4>
+             
+             <hr> 
+             <h5 class="text-success text-left text-capitalize"> I visited the U.S.A in 2018. </h5>
+             <p class="text-muted text-left"> So, I went to the U.S.A in 2018. I had gone to New York, Houston and Denver. I had a lot of fun there! There are many activities for kids as well as grown-ups. There's a lot of greenery there, and the air is pure. You should visit the U.S.A!</p>
+         </div>
+    </center>
+    <div class="page-header" id="movies">  
+        <h2 clas="text-capitalize"> Movie Review- 'Avengers: Endgame'! </h2>
+     </div>
+    <center>
+      <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame"> 
+          <span class="glyphicon glyphicon-film"> </span> Avengers: Endgame <i class="fa fa-sort-dest"> </i>
+        </div>
+        <div id="avengers_endgame" class="collapse"> 
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> 
+            <img src="movie1.jpeg" class="img-responsive img-thumbnail">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize"> It was great!
+             <span class="glyphicon glyphicon-star"> </span>
+            <span class="glyphicon glyphicon-star"> </span>
+            <span class="glyphicon glyphicon-star"> </span>
+            <span class="glyphicon glyphicon-star"> </span>
+            <span class="glyphicon glyphicon-star"> </span>
+            </h5>
+            <p> It was a really good movie! There was a lot of action and drama. If you're a true Avengers fan and haven't watched it- what are you doing? Watch it now!It's available on Hotstar.</p>
+        </div>
+        </div>
+        </center>
+      <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment"> </div>
+    <h2 class="text-capitalise"> News about our Environment: Current Affairs</h2>
+    <ul class="list-group">
+    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">  
+     <h4> Lego Plans to Find Replacement Material for Bricks by 2030</h4>   
+      <img src="e1.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"> In an effort to be more environmentally responsible, Lego has said that they aim to stop manufacturing bricks made of plastic resin and are considering other options, which could include hemp. According to Telegraph World, the company makes 60 billion blocks a year! While Lego wants to replace the harmful plastic used in their products, they lalso require the new material to meet the high standards that allow the blocks to work as they always have, especially with the effective "clicking" together is a key aspect of the iconic coloured blocks. </p>
+        </li> </ul>
+        </div>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h2 class="text-capitalise"> List of Books That You Should Read </h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="books" data-toggle="modal" data-target="#First_Space_Encyclopedia">
+    <img src="s1.jpg" class="img-responsive">
+        <hr>
+        <p class="text-primary"> First Space Encyclopedia</p>
+    </div>
+    <div class="modal fade" id="First_Space_Encyclopedia">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"> &times;</button>
+            <h4 class="modal-title"> First Encyclopedia </h4>
+            </div>
+            <div class="modal-body">
+            <img src="s1.jpg" class="img-responsive img_modal">
+                <p class="p_modal"> Zoom off into the galaxy, and investigate all the planets, from Earth to Mars, with the First Space Encyclopedia. Packed full of stunning photography, quizzes and amazing facts, children will become space experts in no time! Covering everything fro observatories and rockets, to the solar system and the death of the stars, children will discover all about space and space travel."> <br>
+                    <a href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_4?dchild=1&keywords=first+space+encyclopedia+dk&qid=1614849501&sr=8-4"> <b> Buy the Book! </b> </a>
+                   </p>
+         </div>
+        </div>
+        </div>
+    </div>
+<section id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+    <hr style="width:100%;">
+    <img src="hahah.jpeg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+    <h3> Paarth Somani</h3>
+
+        <div class="contact_1" >
+
+           <a href="mailto:somanipaarth0@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;somanipaarth0@gmail.com</h5>
+            </a> 
+
+           <a href="https://www.instagram.com/paarth_somani/"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;paarth_somani</h5>
+            </a> 
+        </div>
+</section>
+
+
+</body>
+</html>

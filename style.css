@@ -1,0 +1,36 @@
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+ 
+input
+{
+    background: grey
+}
+.environment_li {
+    margin-top: 13px;
+}
+.environment_li h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+.books{
+   cursor: pointer; 
+}
+.books hr{
+    margin-bottom: 10px;
+}
+.img_modal {
+    display:inline-block;
+}
+.p_modal {
+    margin-top: 10px;
+}
